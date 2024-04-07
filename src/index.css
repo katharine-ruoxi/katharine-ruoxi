@@ -2256,7 +2256,7 @@ textarea.w-select {
   --spacing--xxl-tablet: 4rem;
   --spacing--xxl-mobile: 3rem;
   --spacing--xxxl: 8rem;
-  --color--shadow-light: rgba(228, 241, 240, .7);
+  --color--shadow-light: rgba(247, 252, 252, 0.848);
   --color--shadow-dark: rgba(45, 64, 64, .2);
   --spacing--hero: 4.5rem;
   --spacing--xxxl-tablet: 6rem;
@@ -2477,7 +2477,6 @@ figcaption {
 
 .global-padding {
   width: 100%;
-  height: 100%;
   max-width: var(--site-width--site-max-width);
   padding-right: var(--site-width--global-site-padding);
   padding-left: var(--spacing--xl);
@@ -3702,7 +3701,7 @@ figcaption {
 }
 
 .neumorphism-shadow {
-  box-shadow: -10px -10px 20px 0 var(--color--shadow-light), 10px 10px 20px 0 var(--color--shadow-dark);
+  box-shadow: -10px -10px 20px 0 var(--color--shadow-dark), 10px 10px 20px 0 var(--color--shadow-dark);
 }
 
 .content-layout-one-image-inner {
@@ -4676,7 +4675,7 @@ figcaption {
 
   .header-home-link {
     background-color: var(--color--background-color);
-    box-shadow: inset 0 0 0 0 var(--color--shadow-light), inset 0 0 0 0 var(--color--shadow-dark), 4px 4px 12px 0 var(--color--shadow-dark);
+    box-shadow: inset 0 0 0 0 var(--color--shadow-dark), inset 0 0 0 0 var(--color--shadow-dark), 4px 4px 12px 0 var(--color--shadow-dark);
   }
 
   .header-link-icon {
