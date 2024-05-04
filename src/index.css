@@ -2477,6 +2477,7 @@ figcaption {
 
 .global-padding {
   width: 100%;
+  height: 30%;
   max-width: var(--site-width--site-max-width);
   padding-right: var(--site-width--global-site-padding);
   padding-left: var(--spacing--xl);
